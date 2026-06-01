@@ -1,5 +1,16 @@
 """
+# Day 01 Python 复习
+name = "Saint"
+age = 25
+subjects = ["CS", "Statistics", "English"]
+
+for subject in subjects:
+    print(f"{name} is learning {subject}")
+
+if len(subjects) == 3:
+    print("三科并进，交叉赋能！")
 print("Hello, Self-Evolution")
+
 import random
 dic_1 = {}
 for _ in range(1000):
